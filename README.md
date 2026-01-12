@@ -81,8 +81,7 @@ Agentic_workflow/
 ├── requirements.txt          # Dependencies
 ├── README.md
 │
-├── data/
-│   ├── docs/                 # Source documents
+├── data/               
 │   ├── pdfs/                 # PDF files for ingestion
 │   ├── raw_json/             # Extracted JSON from PDFs
 │   └── semantic_chunks.json  # Chunked data
