@@ -99,8 +99,6 @@ Agentic_workflow/
 ├── graph/
 │   └── agent_graph.py        # LangGraph workflow
 │
-├── tools/
-│   └── retrieval_tool.py     # search_kb tool
 │
 └── mcp_server/
     ├── server.py             # FastMCP server
