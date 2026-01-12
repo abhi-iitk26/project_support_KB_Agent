@@ -1,23 +1,22 @@
-langchain
-langchain-community
-langchain-core
+# LangGraph for agent workflow
 langgraph
+
+# Vector DB and embeddings
 chromadb
 sentence-transformers
-pypdf
-fastmcp
-python-dotenv
-tqdm
-langchain-text-splitters
-langchain_groq
-graphviz
-fastmcp
-chromadb
-sentence-transformers
+
+# OpenAI client
 openai
-langgraph
-python-dotenv
-requests
-tiktoken
+
+# MCP Server
+fastmcp
+
+# PDF processing
 unstructured
 pdfminer.six
+
+# Utilities
+python-dotenv
+tqdm
+tiktoken
+requests
