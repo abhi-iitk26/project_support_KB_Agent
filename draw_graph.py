@@ -1,12 +1,21 @@
 from graph.agent_graph import app
 
+# Extract full compiled LangGraph
 graph = app.get_graph()
 
-# Generate PNG bytes
+# Print nodes and edges (for README)
+print("\nNodes:")
+for n in graph.nodes:
+    print(" -", n)
+
+print("\nEdges:")
+for e in graph.edges:
+    print(f" {e[0]} → {e[1]}")
+
+# Generate PNG
 png_bytes = graph.draw_mermaid_png()
 
-# Save to file
-with open("support_kb_architecture.png", "wb") as f:
+with open("support_kb_langgraph.png", "wb") as f:
     f.write(png_bytes)
 
-print("Graph saved as support_kb_architecture.png")
+print("\nSaved: support_kb_langgraph.png")
