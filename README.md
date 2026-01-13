@@ -94,10 +94,16 @@ Agentic_workflow/
 │   ├── chroma_indexer.py     # Embedding + indexing
 │   ├── vector_store.py       # ChromaDB connection
 │   └── retriever.py          # Retrieval function
+|
 │
+├── utils/
+│   └── token_counter.py        # Token count
+|
+|
 ├── graph/
 │   └── agent_graph.py        # LangGraph workflow
 │
+|
 │
 └── mcp_server/
     ├── server.py             # FastMCP server
